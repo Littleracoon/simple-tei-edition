@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Catulli Veronensis Liber</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>
+            <p>Catulli Veronensis liber cum apparatibus critico et fontium</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>This is a digital transcript of a poem of Catullus</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <div1 type="poem">
+            <head>1
+               <l>Cui dono lepidum novum libellum</l>
+               <l><app><lem wit="S P V">arida</lem><rdg wit="O G R">arido</rdg></app> modo pumice expolitum?</l>
+               <l>Corneli, tibi: namque tu solebas</l>
+               <l>meas esse aliquid putare nugas</l>
+               <l>iam tum, cum ausus es unus Italorum</l>
+               <l>omne aevum tribus explicare cartis</l>
+               <l>doctis, Iuppiter, et laboriosis.</l>
+               <l>quare habe tibi quidquid hoc libelli,</l>
+               <l>qualecumque quod, <supplied>o</supplied> patrona virgo,</l>
+               <l>plus uno maneat perenne saeclo</l>
+            </head>
+         </div1>
       </body>
   </text>
 </TEI>
+   
